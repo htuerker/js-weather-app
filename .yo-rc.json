@@ -14,7 +14,7 @@
         ],
         "webpackOptions": {
           "mode": "'development'",
-          "entry": "'./src/js/index.js'",
+          "entry": "'./src/index.js'",
           "output": {
             "filename": "'[name].[chunkhash].js'",
             "path": "path.resolve(__dirname, 'dist')"

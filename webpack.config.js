@@ -4,7 +4,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   mode: 'development',
-  entry: './src/js/index.js',
+  entry: './src/index.js',
 
   output: {
     filename: '[name].[chunkhash].js',
@@ -12,7 +12,6 @@ module.exports = {
   },
 
   plugins: [new webpack.ProgressPlugin(), new HtmlWebpackPlugin()],
-
   module: {
     rules: [
       {
@@ -34,8 +33,12 @@ module.exports = {
         },
       },
       {
-        test: /\.scss$/,
+        test: /\.(css|scss|sass)$/,
         use: ['style-loader', 'css-loader', 'sass-loader'],
+      },
+      {
+        test: /\.(jpe?g|png|gif|svg)$/i,
+        loader: 'url-loader?limit=30000&name=images/[name].[ext]',
       },
     ],
   },

@@ -1,0 +1,42 @@
+.temp {
+  text-align: center;
+  font-size: 50px;
+  line-height: 50px;
+  padding-top: 40px;
+}
+
+.min-max-temp {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 10px 0;
+
+  span {
+    font-size: 16px;
+    padding: 0 10px;
+
+    span {
+      padding: 0;
+    }
+  }
+
+  .active {
+    background-color: rgba(255, 255, 255, 0.1);
+    pointer-events: none;
+  }
+}
+
+.converter-panel {
+  display: flex;
+  justify-content: center;
+
+  span {
+    font-size: 24px;
+    padding: 0 10px;
+  }
+
+  .active {
+    background-color: rgba(255, 255, 255, 0.1);
+    pointer-events: none;
+  }
+}

@@ -16,6 +16,9 @@ $ npm -v
 
 $ webpack -v
   4.34.0
+  
+$ yarn -v (optional)
+  1.17.0
 ```
 
 #### Local setup
@@ -30,7 +33,7 @@ $ npm run build
 $ npm start
 ```
 
-or 
+or (optional)
 
 ```
 $ yarn install

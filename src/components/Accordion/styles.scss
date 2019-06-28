@@ -1,0 +1,11 @@
+.accordion {
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: opacity 1s ease-out;
+}
+
+.accordion.active {
+  height: auto !important;
+  opacity: 1;
+}

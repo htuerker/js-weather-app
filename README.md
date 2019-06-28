@@ -33,5 +33,15 @@ $ npm install
 npm run build
 ```
 
+or 
+
+```
+$ yarn install
+```
+##### Build project
+```
+yarn build
+```
+
 Now you can check the ./dist/index.html file with your best browser.
 

@@ -24,13 +24,10 @@ $ webpack -v
 $ git clone https://github.com/btuerker/js-weather-app.git
 $ cd ./js-weather-app
 ```
-##### Install project dependencies
 ```
 $ npm install
-```
-##### Build project
-```
-npm run build
+$ npm run build
+$ npm start
 ```
 
 or 
@@ -38,6 +35,7 @@ or
 ```
 $ yarn install
 $ yarn build
+$ yarn start
 ```
 
 Now you can check the ./dist/index.html file with your best browser.

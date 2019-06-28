@@ -37,10 +37,7 @@ or
 
 ```
 $ yarn install
-```
-##### Build project
-```
-yarn build
+$ yarn build
 ```
 
 Now you can check the ./dist/index.html file with your best browser.
